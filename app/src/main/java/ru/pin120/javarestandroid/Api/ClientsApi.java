@@ -12,6 +12,6 @@ public interface ClientsApi {
     @GET("/clients/get-all")
     Call<List<Clients>> getAllClients();
 
-    @POST("/clients/save")
+    @POST("/clients/save/test")
     Call<Clients> save(@Body Clients client);
 }
